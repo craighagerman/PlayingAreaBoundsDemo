@@ -40,7 +40,7 @@ static const uint32_t topCategory = 0x1 << 1; // 0000000000000000000000000000001
         
         // Loading the top element as a node
         SKSpriteNode *top = [SKSpriteNode spriteNodeWithImageNamed:@"top"];
-        [top setPosition:CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) + 250.0)];
+        [top setPosition:CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) + 260.0)];
         top.zPosition = 1;
         top.physicsBody =  [SKPhysicsBody bodyWithRectangleOfSize:top.frame.size];
         top.physicsBody.dynamic = NO;

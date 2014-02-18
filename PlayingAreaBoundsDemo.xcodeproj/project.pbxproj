@@ -17,7 +17,6 @@
 		4454CEEC18B0078D000B59FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4454CEEA18B0078D000B59FA /* Main.storyboard */; };
 		4454CEEF18B0078D000B59FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454CEEE18B0078D000B59FA /* ViewController.m */; };
 		4454CEF218B0078D000B59FA /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454CEF118B0078D000B59FA /* MyScene.m */; };
-		4454CEF418B0078D000B59FA /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CEF318B0078D000B59FA /* Spaceship.png */; };
 		4454CEF618B0078D000B59FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4454CEF518B0078D000B59FA /* Images.xcassets */; };
 		4454CEFD18B0078D000B59FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4454CEFC18B0078D000B59FA /* XCTest.framework */; };
 		4454CEFE18B0078D000B59FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4454CED618B0078D000B59FA /* Foundation.framework */; };
@@ -27,8 +26,6 @@
 		4454CF1518B0091B000B59FA /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CF1218B0091B000B59FA /* ball.png */; };
 		4454CF1618B0091B000B59FA /* ball@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CF1318B0091B000B59FA /* ball@2x~ipad.png */; };
 		4454CF1718B0091B000B59FA /* ball~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CF1418B0091B000B59FA /* ball~ipad.png */; };
-		4454CF1A18B00E54000B59FA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CF1818B00E54000B59FA /* background.png */; };
-		4454CF1B18B00E54000B59FA /* background@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CF1918B00E54000B59FA /* background@2x 2.png */; };
 		4454CF1D18B010C5000B59FA /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454CF1C18B010C5000B59FA /* top.png */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +56,6 @@
 		4454CEEE18B0078D000B59FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4454CEF018B0078D000B59FA /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		4454CEF118B0078D000B59FA /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		4454CEF318B0078D000B59FA /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		4454CEF518B0078D000B59FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4454CEFB18B0078D000B59FA /* PlayingAreaBoundsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingAreaBoundsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4454CEFC18B0078D000B59FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,8 +65,6 @@
 		4454CF1218B0091B000B59FA /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		4454CF1318B0091B000B59FA /* ball@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x~ipad.png"; sourceTree = "<group>"; };
 		4454CF1418B0091B000B59FA /* ball~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball~ipad.png"; sourceTree = "<group>"; };
-		4454CF1818B00E54000B59FA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		4454CF1918B00E54000B59FA /* background@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x 2.png"; sourceTree = "<group>"; };
 		4454CF1C18B010C5000B59FA /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,8 +127,6 @@
 		4454CEDE18B0078D000B59FA /* PlayingAreaBoundsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4454CF1818B00E54000B59FA /* background.png */,
-				4454CF1918B00E54000B59FA /* background@2x 2.png */,
 				4454CF1C18B010C5000B59FA /* top.png */,
 				4454CF1218B0091B000B59FA /* ball.png */,
 				4454CF1318B0091B000B59FA /* ball@2x~ipad.png */,
@@ -146,7 +138,6 @@
 				4454CEEE18B0078D000B59FA /* ViewController.m */,
 				4454CEF018B0078D000B59FA /* MyScene.h */,
 				4454CEF118B0078D000B59FA /* MyScene.m */,
-				4454CEF318B0078D000B59FA /* Spaceship.png */,
 				4454CEF518B0078D000B59FA /* Images.xcassets */,
 				4454CEDF18B0078D000B59FA /* Supporting Files */,
 			);
@@ -259,14 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4454CEE318B0078D000B59FA /* InfoPlist.strings in Resources */,
-				4454CF1A18B00E54000B59FA /* background.png in Resources */,
 				4454CF1518B0091B000B59FA /* ball.png in Resources */,
 				4454CF1D18B010C5000B59FA /* top.png in Resources */,
 				4454CF1618B0091B000B59FA /* ball@2x~ipad.png in Resources */,
 				4454CEF618B0078D000B59FA /* Images.xcassets in Resources */,
-				4454CEF418B0078D000B59FA /* Spaceship.png in Resources */,
 				4454CEEC18B0078D000B59FA /* Main.storyboard in Resources */,
-				4454CF1B18B00E54000B59FA /* background@2x 2.png in Resources */,
 				4454CF1718B0091B000B59FA /* ball~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +490,7 @@
 				4454CF0E18B0078D000B59FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4454CF0F18B0078D000B59FA /* Build configuration list for PBXNativeTarget "PlayingAreaBoundsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +499,7 @@
 				4454CF1118B0078D000B59FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
